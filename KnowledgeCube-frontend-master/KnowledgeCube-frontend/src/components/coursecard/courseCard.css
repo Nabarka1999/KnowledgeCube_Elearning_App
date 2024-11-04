@@ -1,0 +1,86 @@
+.course-card{
+    background-color: rgb(255, 255, 255)
+    ;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.3);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    width: 240px;
+    height: 355px;
+    transition: 0.5s ease;
+
+    &:hover{
+        box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.7);
+        width: 260px;
+        height: 360px;
+    }
+
+    .course-thumbnail{
+        width: 100%;
+        height: 150px;
+        object-fit: cover;
+        border-radius: 10px;
+        margin-bottom: 10px;
+        box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.3);
+    }
+
+    h3{
+        font-size: 18px;
+        color: black;
+        margin-bottom: 10px;
+    }
+
+    p{
+        font-size: 14px;
+        color: black;
+        margin-bottom: 5px;
+    }
+
+    .course-btn{
+        background-color: rgb(233, 89, 89);
+        color: rgb(255, 255, 255);
+        padding: 5px 12px;
+        border: none;
+        border-radius: 8px;
+        font-size: 15px;
+        cursor: pointer;
+        transition: background-color .3s ease;
+        margin-top: 10px;
+        box-shadow: 0px 2px 4px rgba(0,0,0,0.1);
+        text-align: center;
+      
+        &:hover{
+          background-color: rgb(255, 7, 7);
+          color: rgb(255, 255, 255);
+          text-shadow: 0px 2px 4px rgba(0,0,0,0.3);
+        }
+      
+        @media (max-width: 768px){
+          font-size: 15px;
+        }
+      }
+
+      .course-delete{
+        background-color: rgb(0, 0, 0);
+        color: rgb(255, 255, 255);
+        padding: 4px 8px;
+        border: none;
+        border-radius: 8px;
+        font-size: 15px;
+        cursor: pointer;
+        transition: background-color .3s ease;
+        margin-top: 10px;
+        box-shadow: 0px 2px 4px rgba(0,0,0,0.1);
+        text-align: center;
+      
+        &:hover{
+          background-color: rgb(0, 0, 0);
+          color: rgb(255, 0, 0);
+          text-shadow: 0px 2px 4px rgba(0,0,0,0.3);
+        }
+      
+        @media (max-width: 768px){
+          font-size: 15px;
+        }
+      }
+}

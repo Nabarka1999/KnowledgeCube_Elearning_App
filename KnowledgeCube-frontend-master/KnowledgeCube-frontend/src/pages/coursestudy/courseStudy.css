@@ -1,0 +1,37 @@
+.course-study-page{
+    padding: 50px 0;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    h2{
+        font-size: 24px;
+        color: rgb(255, 0, 0);
+        text-align: center;
+    }
+
+    h4{
+        font-size: 21px;
+        color: rgb(255, 0, 0);
+        text-align: center;
+    }
+
+    h5{
+        font-size: 20px;
+        color: rgb(255, 0, 0);
+        text-align: center;
+    }
+
+    a{
+        text-decoration: none;
+        background-color: rgb(0, 0, 0);
+        color: white;
+        padding: 5px 10px;
+        border-radius: 6px;
+    }
+}
+
+h2.btn{
+    color: white;
+}

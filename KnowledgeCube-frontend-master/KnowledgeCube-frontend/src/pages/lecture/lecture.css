@@ -1,0 +1,99 @@
+.lec-page{
+    display: flex;
+    justify-content: space-between;
+    min-height: 82vh;
+    padding: 12px;
+    background-color: rgb(253, 0, 0);
+
+    @media (max-width: 768px) {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .lec-left{
+        width: 70%;
+        padding: 10px;
+        align-items: center;
+        color: white;
+        text-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+
+        @media (max-width: 768px) {
+            width: 90%;
+        }
+    }
+    .lec-right{
+        width: 30%;
+
+        .lec-form{
+            background-color: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            width: auto;
+
+            h2{
+                font-size: 24px;
+                color: red;
+                margin-bottom: 10px;
+            }
+
+            form{
+                text-align: left;
+                label{
+                    display: block;
+                    margin-bottom: 5px;
+                    font-size: 14px;
+                    color: black;
+                }
+
+                input{
+                    width: 92%;
+                    padding: 10px;
+                    margin-bottom: 15px;
+                    border: 1px solid black;
+                    border-radius: 5px;
+
+                }
+            }
+        }
+
+        @media (max-width: 768px) {
+            width: 80%;
+            margin-bottom: 10px;
+        }
+
+        .lec-num{
+            background-color: white;
+            padding: 10px;
+            margin-top: 10px;
+            border-radius: 5px;
+            text-align: center;
+            cursor: pointer;
+            transition: .5s ease;
+
+            &:hover{
+                background-color: rgb(255, 131, 131);
+                color: white;
+                box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+                text-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+            }
+        }
+        .active{
+            background-color: rgb(251, 125, 125);
+            color: rgb(255, 255, 255);
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            text-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+        }
+    }
+}
+
+.progress{
+    width: 100%;
+    background-color: rgb(255, 0, 0);
+    padding: 6px;
+    margin: 0.2px auto;
+    text-align: center;
+    color: white;
+}
+

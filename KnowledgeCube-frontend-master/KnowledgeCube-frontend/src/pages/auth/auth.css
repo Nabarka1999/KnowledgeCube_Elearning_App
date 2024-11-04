@@ -1,0 +1,82 @@
+.auth-page{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 85vh;
+    background-color: rgb(255, 255, 255);
+
+    .auth-form{
+        background-color: rgb(255, 7, 7);
+        padding: 30px;
+        border-radius: 8px;
+        box-shadow: 0px 2px 4px rgba(0,0,0,0.1);
+        text-align: center;
+        width: 250px;
+
+        h2{
+            font-size: 24px;
+            color: rgb(255, 255, 255);
+            margin-bottom: 15px;
+            text-shadow: 0px 2px 4px rgba(0,0,0,0.3);
+        }
+
+        form{
+            text-align: left;
+            text-shadow: 0px 2px 4px rgba(0,0,0,0.3);
+
+            label{
+                display: block;
+                margin-bottom: 5px;
+                font-size: 14px;
+                color: white;
+            }
+
+            input{
+                border-radius: 7px;
+                width: 90%;
+                padding: 10px;
+                margin-bottom: 10px;
+                border: 1px solid white;
+                box-shadow: 0px 2px 4px rgba(0,0,0,0.3);
+            }
+
+            p{
+                text-align: left;
+                text-shadow: 0px 2px 4px rgba(0,0,0,0.3);
+                color: aliceblue;
+
+                a{
+                    color: rgb(255, 255, 255); /* Change this to your desired color */
+                    text-decoration: none; /* Optional: Removes the underline */
+
+                    &:hover{
+                        color: rgb(2, 0, 0);
+                        text-shadow: none;
+                    }
+                }
+                
+            }
+        }
+    }
+}
+
+
+.auth-page{
+    .auth-form{
+        p{
+            text-align: left;
+            text-shadow: 0px 2px 4px rgba(0,0,0,0.3);
+            color: aliceblue;
+
+            a{
+                color: rgb(255, 255, 255); /* Change this to your desired color */
+                text-decoration: none; /* Optional: Removes the underline */
+
+                &:hover{
+                    color: rgb(0, 0, 0);
+                    text-shadow: none
+                }
+            }
+        }
+    }
+}
