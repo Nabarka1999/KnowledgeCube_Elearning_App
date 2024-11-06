@@ -12,17 +12,17 @@
  ## Feature Set
  The web-based application should provide the following feature set. Feel free to extend this to make the
  project more vibrant:
- ● User Authentication: This feature supports the registration, login, and role-based access control
+ * User Authentication: This feature supports the registration, login, and role-based access control
  for different user types, such as administrators, course creators, and learners.
- ● Course Creation Suite: This feature enables course creators to design, publish, and manage short
+ * Course Creation Suite: This feature enables course creators to design, publish, and manage short
  courses, including setting up course structure, uploading content.
- ● Content Management: This feature allows for the storage, organization, and retrieval of various
+ * Content Management: This feature allows for the storage, organization, and retrieval of various
  types of course content, such as text, images, videos, and documents.
- ● Course Discovery: This feature enables users to search, filter, and browse through available
+ * Course Discovery: This feature enables users to search, filter, and browse through available
  courses based on various criteria, such as subject or course creator.
- ● Enrolment and Progress Tracking: This feature allows learners to enrol in courses, track their
+ * Enrolment and Progress Tracking: This feature allows learners to enrol in courses, track their
  learning progress.
- ● LearnerDashboard: This feature provides learners with a personalized dashboard displaying their
+ * LearnerDashboard: This feature provides learners with a personalized dashboard displaying their
  enrolled courses, progress, and achievements.
- ● Course Creator Dashboard: This feature offers course creators insights into course performance,
+ * Course Creator Dashboard: This feature offers course creators insights into course performance,
  learner engagement, and feedback to help improve course quality.
