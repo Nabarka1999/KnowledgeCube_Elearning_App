@@ -39,3 +39,5 @@
 As I have used render to host my website so there will some limitations,
 * It will take saome time to load the website for the first time.
 * After creating courses and lectures if will get deleted automatically after few hours.
+
+### If you get a bug feel free to contact at nabarkaroy.20.8@gmail.com
