@@ -26,3 +26,13 @@
  enrolled courses, progress, and achievements.
  * Course Creator Dashboard: This feature offers course creators insights into course performance,
  learner engagement, and feedback to help improve course quality.
+
+## User Authentication:
+*Normal User: You can make your own user using any mail id.
+*Admin User: nabarkaroy@gmail.com
+*Admin Password: password1
+
+## Note:
+As I have used render to host my website so there will some limitations,
+* It will take saome time to load the website for the first time.
+* After creating courses and lectures if will get deleted automatically after few hours.
