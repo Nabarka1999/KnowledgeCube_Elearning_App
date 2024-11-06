@@ -5,6 +5,9 @@
  stack to ensure a seamless and engaging user experience for both course creators and learners. Key
  components of the platform will include a course creation suite, a content delivery system, and a user
  management system.
+
+### Website Link: https://knowledge-cube-frontend-nine.vercel.app/
+ 
  The front-end will be designed with a responsive and intuitive user interface, ensuring a seamless
  experience across various devices. The back-end will consist of a robust API that handles all data
  transactions and supports role-based access control to protect sensitive information. The database will
@@ -28,9 +31,9 @@
  learner engagement, and feedback to help improve course quality.
 
 ## User Authentication:
-*Normal User: You can make your own user using any mail id.
-*Admin User: nabarkaroy@gmail.com
-*Admin Password: password1
+* Normal User: You can make your own user using any mail id.
+* Admin User: nabarkaroy@gmail.com
+* Admin Password: password1
 
 ## Note:
 As I have used render to host my website so there will some limitations,
