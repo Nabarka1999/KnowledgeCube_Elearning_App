@@ -9,7 +9,7 @@
  experience across various devices. The back-end will consist of a robust API that handles all data
  transactions and supports role-based access control to protect sensitive information. The database will
  store and manage all relevant data, including user information, course details, and learning progress.
- * Feature Set
+ ## Feature Set
  The web-based application should provide the following feature set. Feel free to extend this to make the
  project more vibrant:
  ● User Authentication: This feature supports the registration, login, and role-based access control
